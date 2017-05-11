@@ -1,0 +1,19 @@
+.wrapper {
+  width: 98%;
+  margin: 0 auto; }
+
+header {
+  margin: 10px;
+  padding: 3%; }
+
+.MyButton {
+  background-color: #ed5fca;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px; }
+
+#slideshow {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

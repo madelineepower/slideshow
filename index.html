@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The SlideShow</title>
+
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body id="body">
+    <div class="wrapper">
+      <header class="jumbotron" class="container">
+        <h1>My Favorite Kitchens</h1>
+        <button id="SlideShowButton" type="button" class="MyButton" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">View Slideshow</button>
+      </header>
+    <div class="row" id="thumbnails" data-toggle="modal" data-target=".bs-example-modal-lg">
+
+    </div>
+    <!-- Slideshow modal -->
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <header class="modal-header">
+            <h3>Image Slideshow</h3>
+          </header>
+          <div id="slideshow">
+              <img id="imageTag" width=700 height=490 />
+              <div id="captionDiv"></div>
+              <button id="leftArrow" class="glyphicon glyphicon-arrow-left"></button>
+              <button id="rightArrow" class="glyphicon glyphicon-arrow-right"></button>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="MyButton" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="javascripts/loadimages.js"></script>
+  <script type="text/javascript" src="javascripts/main.js"></script>
+  </body>
+</html>
